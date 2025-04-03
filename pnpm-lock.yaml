@@ -17,6 +17,9 @@ importers:
       '@radix-ui/react-slot':
         specifier: ^1.1.2
         version: 1.1.2(@types/react@19.1.0)(react@19.1.0)
+      '@shortercode/webzip':
+        specifier: 1.1.1-0
+        version: 1.1.1-0
       '@tailwindcss/vite':
         specifier: ^4.1.1
         version: 4.1.1(vite@6.2.4(@types/node@22.13.17)(jiti@2.4.2)(lightningcss@1.29.2))
@@ -560,6 +563,9 @@ packages:
     resolution: {integrity: sha512-yAkUOkIKZlK5dl7u6dg897doBgLXmUHhIINM2c+sND3DZwnrdQkkSiDh7N75Ll4mM4dxSkYfXqU9fW3lLkMFug==}
     cpu: [x64]
     os: [win32]
+
+  '@shortercode/webzip@1.1.1-0':
+    resolution: {integrity: sha512-c+9LbU7MTqWDXS73Pf7vEm5AyFFfbuuHiMgqmApwkwD5BrlELKaSqKjofG4Gqd3c/NgF8fO0iR5NbPdE26jF2Q==}
 
   '@tailwindcss/node@4.1.1':
     resolution: {integrity: sha512-xvlh4pvfG/bkv0fEtJDABAm1tjtSmSyi2QmS4zyj1EKNI1UiOYiUq1IphSwDsNJ5vJ9cWEGs4rJXpUdCN2kujQ==}
@@ -1746,6 +1752,8 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.39.0':
     optional: true
+
+  '@shortercode/webzip@1.1.1-0': {}
 
   '@tailwindcss/node@4.1.1':
     dependencies:
